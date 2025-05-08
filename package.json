@@ -7,8 +7,8 @@
     "weather": "./dist/index.js"
   },
   "scripts": {
-    "build:server": "tsc && chmod 755 dist/index.js",
-    "start:server" : "node dist/index.js",
+    "build:server": "tsc && chmod 755 dist/core/index.js",
+    "start:server": "node dist/core/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -19,7 +19,9 @@
     "dist"
   ],
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.41.0",
     "@modelcontextprotocol/sdk": "^1.11.1",
+    "dotenv": "^16.5.0",
     "zod": "^3.24.4"
   },
   "devDependencies": {
