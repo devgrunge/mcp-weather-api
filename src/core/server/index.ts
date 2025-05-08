@@ -1,5 +1,5 @@
 const { StdioServerTransport } = require("@modelcontextprotocol/sdk/server/stdio.js");
-import server from "..";
+import server from "../";
 
 
 async function bootstrap() {

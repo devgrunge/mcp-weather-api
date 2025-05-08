@@ -7,9 +7,9 @@
     "weather": "./dist/index.js"
   },
   "scripts": {
-    "build": "tsc && chmod 755 dist/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "node dist/index.js"
+    "build:server": "tsc && chmod 755 dist/index.js",
+    "start:server" : "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
